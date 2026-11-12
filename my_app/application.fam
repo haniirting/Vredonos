@@ -11,6 +11,6 @@ App(
         "infrared",
     ],
     fap_version="1.0",
-    fap_icon="images/icon_10px.png",
     fap_category="Tools",
+    fap_icon="images/pr-cy-image-2026-11-12-22-38-00 2.png",
 )
