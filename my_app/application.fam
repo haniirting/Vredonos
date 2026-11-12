@@ -1,0 +1,16 @@
+App(
+    appid="my_app",
+    name="MyApp",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="my_app_main",
+    stack_size=4 * 1024,
+    requires=[
+        "gui",
+        "storage",
+        "subghz",
+        "infrared",
+    ],
+    fap_version="1.0",
+    fap_icon="images/icon_10px.png",
+    fap_category="Tools",
+)
